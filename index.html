@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Portfolio - Mario Mendoza</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container ancho">
+        <figure><img src="./img/logo.svg" alt="Logo Mario Mendoza" /></figure>
+        <div class="ancho">
+          <nav id="menu">
+            <ul>
+              <li><a href="#inicio" class="btn">Inicio</a></li>
+              <li><a href="#sobre-mi" class="btn">Sobre mi</a></li>
+              <li><a href="#proyectos" class="btn">Proyectos</a></li>
+              <li><a href="#contacto" class="btn">Contacto</a></li>
+              <li>
+                <a
+                  href="./resumeMarioMendoza.pdf"
+                  download="resumeMarioMendoza.pdf"
+                  class="btn btn-primary btn-cv-desk"
+                  >Descargar CV
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <a
+            href="./resumeMarioMendoza.pdf"
+            download="resumeMarioMendoza.pdf"
+            id="btn-cv"
+            class="btn btn-primary"
+          >
+            Descargar CV
+          </a>
+        </div>
+        <button id="burger" class="btn-action">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section id="inicio">
+        <div class="hero-container ancho">
+          <div class="hero-content">
+            <h1>
+              Mario Mendoza Caceres
+              <span>Software Developer</span>
+            </h1>
+            <p class="muted">
+              Soy estudiante de Ingeniería en Sistemas Computacionales con meres
+              en el aesarono wen y la creacion ae apncaciones modernas,
+              funcionales y fáciles de usar.
+            </p>
+            <div class="btns-hero">
+              <a href="#contacto" class="btn btn-primary">Contactar</a>
+              <a href="#proyectos" class="btn btn-secondary">Proyectos</a>
+            </div>
+          </div>
+          <figure>
+            <img src="./img/mario-mnendoza.jpeg" alt="Foto de Mario Mendoza" />
+          </figure>
+        </div>
+      </section>
+      <section id="sobre-mi">
+        <div class="about-container ancho">
+          <article class="me-content">
+            <div class="about-title">
+              <h2 class="me-info">
+                <i class="fa-solid fa-user primary"></i>
+                Sobre mi
+              </h2>
+            </div>
+            <div>
+              <p class="muted">
+                Actualmente estoy fortaleciendo mis conocimientos en desarrollo
+                frontend, mientras trabajo con tecnologías como React y Vue. Soy
+                un apasionado de la programación y siempre estoy buscando
+                aprender nuevas tecnologías y mejorar mis habilidades. Me
+                considero una persona proactiva, responsable y con una gran
+                capacidad de trabajo en equipo.
+              </p>
+            </div>
+          </article>
+          <article class="studies-content">
+            <div class="about-title">
+              <h2>
+                <i class="fa-solid fa-graduation-cap primary"></i>
+                Estudios
+              </h2>
+            </div>
+            <div class="studies-info">
+              <p clas="muted">
+                <strong>Ingeniería en Sistemas</strong>
+                <small>TecNM * 2021 - 2025</small>
+              </p>
+              <figure>
+                <img src="./img/logo-tec.png" alt="Logo de TecNM" />
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section>
+        <div class="stack-container ancho">
+          <h2>
+            <i class="fa-solid fa-screwdriver-wrench primary"></i>
+            Stack
+          </h2>
+          <div class="stack-cards">
+            <div class="stack-content">
+              <h3>Frontend</h3>
+              <div class="stack-info">
+                <span>HTML</span>
+                <span>Tailwind</span>
+                <span>JavaScript</span>
+                <span>Figma</span>
+              </div>
+            </div>
+            <div class="stack-content">
+              <h3>Backend</h3>
+              <div class="stack-info">
+                <span>Laravel</span>
+                <span>Python</span>
+                <span>NodeJS</span>
+              </div>
+            </div>
+            <div class="stack-content">
+              <h3>Base de Datos</h3>
+              <div class="stack-info">
+                <span>MySQL</span>
+                <span>PostgreSQL</span>
+                <span>SQLite</span>
+              </div>
+            </div>
+            <div class="stack-content">
+              <h3>Tools</h3>
+              <div class="stack-info">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="exp-container ancho">
+          <h2>
+            <i class="fa-solid fa-person-walking-luggage primary"></i>
+            Experiencia
+          </h2>
+          <div class="exp-cards">
+            <article>
+              <div class="exp-place">
+                <h3>Fullstack Developer</h3>
+                <figure>
+                  <img src="./img/Amazon_logo.webp" alt="Logo de la empresa" />
+                </figure>
+              </div>
+              <div class="">
+                <p class="muted">Enero 2023 - Actualidad</p>
+                <p class="muted">
+                  Diseñar e implementar interfaces de usuario, desarrollar
+                  funcionalidades de backend y garantizar el rendimiento
+                  general, la seguridad de las aplicaciones/sistemas web.
+                </p>
+              </div>
+              <div class="exp-stack">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+            </article>
+            <article id="more-exp">
+              <div class="exp-place">
+                <h3>Fullstack Developer</h3>
+                <figure>
+                  <img src="./img/Amazon_logo.webp" alt="Logo de la empresa" />
+                </figure>
+              </div>
+              <div class="">
+                <p class="muted">Enero 2023 - Actualidad</p>
+                <p class="muted">
+                  Diseñar e implementar interfaces de usuario, desarrollar
+                  funcionalidades de backend y garantizar el rendimiento
+                  general, la seguridad de las aplicaciones/sistemas web.
+                </p>
+              </div>
+              <div class="exp-stack">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+            </article>
+            <div>
+              <button id="show-exp" class="btn-action btn-primary">
+                Roles anteriores
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="proyectos">
+        <div class="proyectos-container ancho">
+          <h2>
+            <i class="fa-solid fa-diagram-project"></i>
+            Proyectos
+          </h2>
+          <div class="projects-cards">
+            <article class="card">
+              <figure>
+                <img src="./img/proyecto1.jpeg" alt="Foto del Proyecto 1" />
+              </figure>
+              <div>
+                <h3>Proyecto 1</h3>
+                <p class="muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, voluptatibus.
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <figure>
+                <img src="./img/proyecto1.jpeg" alt="Foto del Proyecto 1" />
+              </figure>
+              <div>
+                <h3>Proyecto 1</h3>
+                <p class="muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, voluptatibus.
+                </p>
+              </div>
+            </article>
+            <article class="card">
+              <figure>
+                <img src="./img/proyecto1.jpeg" alt="Foto del Proyecto 1" />
+              </figure>
+              <div>
+                <h3>Proyecto 1</h3>
+                <p class="muted">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, voluptatibus.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <div class="contact-container ancho">
+          <h2>
+            <i class="fa-solid fa-circle-user primary"></i>
+            Contacto
+          </h2>
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>¿Tienes algún proyecto o rol para mi?</h3>
+              <p class="muted">
+                Estoy interesado en oportunidades donde pueda seguir
+                desarrollándome como programador y aportar mis conocimientos en
+                desarrollo web.
+              </p>
+            </div>
+            <div class="contact-socials">
+              <div class="social">
+                <h3>
+                  <span><i class="fa-solid fa-envelope primary"></i></span>
+                  Email
+                </h3>
+                <a
+                  href="mailto:mario.mendozac@icloud.com"
+                  class="btn btn-social"
+                  >mario.mendozac@icloud.com</a
+                >
+              </div>
+              <div class="social">
+                <h3>
+                  <span><i class="fa-brands fa-linkedin primary"></i></span>
+                  LinkedIn
+                </h3>
+                <a
+                  href="https://www.linkedin.com/in/marioswc/"
+                  class="btn btn-social"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  linked/in/marioswc
+                </a>
+              </div>
+              <div class="social">
+                <h3>
+                  <span><i class="fa-brands fa-linkedin primary"></i></span>
+                  GitHub
+                </h3>
+                <a
+                  href="https://github.com/marioswc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-social"
+                  >@marioswc</a
+                >
+              </div>
+              <div class="social">
+                <h3>
+                  <span><i class="fa-solid fa-location-dot primary"></i></span>
+                  Ubicación
+                </h3>
+                <span class="muted">Mérida Yucatán</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container ancho">
+        <small class="muted">&copy; 2026 Mario Mendoza</small>
+        <div class="socials-footer">
+          <a href="mailto:mario.mendozac@icloud.com" class="btn primary">
+            <i class="fa-solid fa-envelope"> </i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marioswc/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn primary"
+          >
+            <i class="fa-brands fa-linkedin"> </i>
+          </a>
+          <a
+            href="https://github.com/marioswc"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn primary"
+          >
+            <i class="fa-brands fa-square-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      $("#burger").click(function () {
+        $("#menu").slideToggle("active");
+      });
+      $("#show-exp").click(function () {
+        $("#more-exp").slideToggle("active");
+      });
+    </script>
+  </body>
+</html>
